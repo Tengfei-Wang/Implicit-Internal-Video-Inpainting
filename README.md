@@ -39,14 +39,15 @@ git clone https://github.com/Tengfei-Wang/Implicit-Internal-Video-Inpainting.git
 cd Implicit-Internal-Video-Inpainting
 ```
 
-## Quick Start 
+## Usage
+### Quick Start
 To try our  method:
 ```
 
 ```
 The  results are placed in ./exp/results.
  
-## Try Your Own Data
+### Try Your Own Data
 To try our  method:
 ```
 
