@@ -45,7 +45,7 @@ We provide an example sequence 'bmx-trees'  in `./inputs/` . To try our  method:
 ```
 python train.py
 ```
-The default iterations is set to 40,000 in `config/train.yml`, and the internal learning takes ~3 hours with a single GPU. 
+The default iterations is set to 50,000 in `config/train.yml`, and the internal learning takes ~3 hours with a single GPU. 
 During the learning process, you can use tensorboard to check the inpainting results by:
 ```
 tensorboard --logdir ./exp/logs
@@ -74,7 +74,7 @@ python train.py
 
 #### Improve the sharpness and consistency
 For some hard videos, the former training may not produce a pleasing result. You can fine-tune the trained model with another losses.
-To this end, modify the 'model_restore' in `config/test.yml` to the checkpoint path of basic training. Also set use_ambiguity_loss or use_stable_loss to True. Then fine-tune the 
+To this end, modify the 'model_restore' in `config/test.yml` to the checkpoint path of basic training. Also set ambiguity_loss or stabilization_loss to True. Then fine-tune the 
 basic checkpoint for 20,000-40,000 iterations.
 ```
 python train.py
@@ -89,7 +89,7 @@ python test.py
 ### Mask Propagation from A Single Frame
 When you only annotate the object mask of one frame (or few frames), our method can propagate it to other frames automatically.
 
-Modify `./config/train_mask.yml`. We typically set the training iterations to 4,000 ~ 20,000, and the learning rate to 1e-5 ~ 2e-4.
+Modify `./config/train_mask.yml`. We typically set the training iterations to 4,000 ~ 20,000, and the learning rate to 1e-5 ~ 1e-4.
 ```
 python train_mask.py
 ```
