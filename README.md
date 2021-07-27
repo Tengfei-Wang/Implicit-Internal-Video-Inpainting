@@ -113,7 +113,7 @@ If you find this work useful for your research, please cite:
 } 
 ```
 
-If you are also interested in the image inpainting or internal learning, this paper can  be helpful :)
+If you are also interested in the image inpainting or internal learning, [this paper](https://tengfei-wang.github.io/EII/index.html) can  be also helpful :)
 ```
 @inproceedings{wang2021image,
   title={Image Inpainting with External-internal Learning and Monochromic Bottleneck},
