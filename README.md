@@ -13,12 +13,6 @@ Implementation for our ICCV2021 paper 'Internal Video Inpainting by Implicit Lon
 We proposed a  simple but effective video inpainting method. The inpainting process is zero-shot and implicit, which does not need any pretraining on large video datasets or optical-flow estimation. We further extend the proposed method to more challenging tasks:  video object removal with  limited annotated  masks,  and inpainting on ultra high-resolution videos (e.g., 4K videos).
 <img src="pics/demo.jpg" height="500px"/> 
 
-### TO DO
-- [x] Release base code
-- [x] Release code for mask propagation
-- [ ] Release code and data for 4K videos
-
-
 ## Setup
 
 ### Environment
