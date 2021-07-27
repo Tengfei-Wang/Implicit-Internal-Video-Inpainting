@@ -87,10 +87,26 @@ python train.py
 ```
 
 #### Inference
-Modify the `config/test.yml`, which indicates the video path, log path, and save path.
+Modify the `./config/test.yml`, which indicates the video path, log path, and save path.
 ```
 python test.py
 ```
+
+### Mask Propagation from A Single Frame
+When you only annotate the object mask of one frame (or few frames), our method can propagate it to other frames automatically.
+
+Modify `./config/train_mask.yml`. We typically set the training iterations to 4,000 ~ 20,000, and the learning rate to 1e-5 ~ 2e-4.
+```
+python train_mask.py
+```
+
+After training, modify `./config/test_mask.yml`, and then:
+```
+python test_mask.py
+```
+
+### High-resolution Video Inpainting
+Our 4K videos and mask annotations can be downloaded in [4K data]().
 
 ## Citation
 If you find this work useful for your research, please cite:
