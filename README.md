@@ -113,6 +113,16 @@ If you find this work useful for your research, please cite:
 } 
 ```
 
+If you are also interested in the image inpainting or internal learning, this paper can  be helpful :)
+```
+@inproceedings{wang2021image,
+  title={Image Inpainting with External-internal Learning and Monochromic Bottleneck},
+  author={Wang, Tengfei and Ouyang, Hao and Chen, Qifeng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={5120--5129},
+  year={2021}
+}
+```
 
 ## Contact
 Please send emails to [Hao Ouyang](ououkenneth@gmail.com) or [Tengfei Wang](tengfeiwang12@gmail.com)  if there is any question
