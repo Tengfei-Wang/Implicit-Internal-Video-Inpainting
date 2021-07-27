@@ -1,0 +1,7 @@
+GPU_ID: '8' 
+model_restore: 'exp/logs/blackswan-mask/checkpoint_6000' 
+
+test_dir: exp/results/blackswan-mask
+dir_video: 'inputs/videos/blackswan' 
+dir_mask: 'inputs/masks/blackswan'
+img_shapes: [320, 608]

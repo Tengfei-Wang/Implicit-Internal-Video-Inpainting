@@ -1,0 +1,17 @@
+GPU_ID: '8' 
+model_restore: '' 
+
+log_dir: exp/logs/blackswan-mask
+dir_video: 'inputs/videos/blackswan' 
+dir_mask: 'inputs/masks/blackswan'
+
+# training
+img_shapes: [320, 608]
+batch_size: 6
+lr: 0.0001
+
+max_iters: 6000
+max_epochs: 6000
+print_iters: 500
+summary_iters: 1000
+model_iters: 2000

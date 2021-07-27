@@ -1,0 +1,32 @@
+GPU_ID: '8' 
+model_restore: '' 
+
+log_dir: exp/logs/bmx-trees
+dir_video: 'inputs/videos/bmx-trees' 
+dir_mask: 'inputs/masks/bmx-trees'
+
+# training
+img_shapes: [320, 600]
+batch_size: 5
+lr: 0.0002
+
+max_iters: 50000
+max_epochs: 10000
+print_iters: 500
+summary_iters: 2500
+model_iters: 10000
+
+
+# Network
+coarse_only: False 
+use_refine: True 
+padding: 'SAME'
+
+
+# loss
+stabilization_loss: False 
+ambiguity_loss: False
+l1_loss: True
+l1_loss_alpha: 1.
+stabilization_loss_alpha: 0.2 
+ambiguity_loss_alpha: 0.1
