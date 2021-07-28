@@ -47,7 +47,7 @@ We provide an example sequence 'bmx-trees'  in `./inputs/` . To try our  method:
 ```
 python train.py
 ```
-The default iterations is set to 50,000 in `config/train.yml`, and the internal learning takes ~3 hours with a single GPU. 
+The default iterations is set to 50,000 in `config/train.yml`, and the internal learning takes ~4 hours with a single GPU. 
 During the learning process, you can use tensorboard to check the inpainting results by:
 ```
 tensorboard --logdir ./exp/logs
