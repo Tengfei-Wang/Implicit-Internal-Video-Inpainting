@@ -14,6 +14,11 @@ We proposed a  simple but effective video inpainting method. The inpainting proc
 <img src="pics/demo.jpg" height="500px"/> 
 
 ## Setup
+### Installation
+```
+git clone https://github.com/Tengfei-Wang/Implicit-Internal-Video-Inpainting.git
+cd Implicit-Internal-Video-Inpainting
+```
 
 ### Environment
 This code is based on tensorflow 2.x  (tested on tensorflow 2.2, 2.4).
@@ -33,11 +38,6 @@ conda env create -f environment.yml
 ```
 
 
-### Installation
-```
-git clone https://github.com/Tengfei-Wang/Implicit-Internal-Video-Inpainting.git
-cd Implicit-Internal-Video-Inpainting
-```
 
 ## Usage
 ### Quick Start
