@@ -30,6 +30,7 @@ conda activate IIVI
 conda install tensorflow-gpu tensorboard
 pip install pyaml 
 pip install opencv-python
+pip install tensorflow-addons
 ```
 
 Or, you can also   set up the environment from the provided environment.yml:
