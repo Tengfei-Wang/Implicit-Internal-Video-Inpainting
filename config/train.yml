@@ -1,4 +1,4 @@
-GPU_ID: '8' 
+GPU_ID: '0' 
 model_restore: '' 
 
 log_dir: exp/logs/bmx-trees
