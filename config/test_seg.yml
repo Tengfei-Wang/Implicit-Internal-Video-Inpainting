@@ -1,5 +1,5 @@
-GPU_ID: '8' 
-model_restore: 'exp/logs/blackswan-mask/checkpoint_6000' 
+GPU_ID: '1' 
+model_restore: 'exp/logs/blackswan-mask/checkpoint_8000' 
 
 test_dir: exp/results/blackswan-mask
 dir_video: 'inputs/videos/blackswan' 
