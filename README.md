@@ -36,6 +36,7 @@ pip install tensorflow-addons
 Or, you can also   set up the environment from the provided environment.yml:
 ```
 conda env create -f environment.yml
+conda activate IIVI
 ```
 
 
@@ -61,9 +62,9 @@ You can also modify  'model_restore' in `config/test.yml` to save results with d
 #### Data preprocess
 Before training, we advise to dilate the object masks first to exclude some edge pixels. Otherwise, the imperfectly-annotated masks would lead to artifacts in the object removal task.
 
-You can generate and preprocess the mask by this script:
+You can generate and preprocess the masks by this script:
 ```
-python scripts/preprocess_mask.py
+python scripts/preprocess_mask.py --annotation_path inputs/annotations/bmx-trees
 ```
 
 #### Basic training
