@@ -1,4 +1,4 @@
-GPU_ID: '8' 
+GPU_ID: '0' 
 model_restore: 'exp/logs/bmx-trees/checkpoint_50000' 
 
 test_dir: exp/results/bmx-trees
