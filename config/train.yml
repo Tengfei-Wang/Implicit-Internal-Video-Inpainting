@@ -11,7 +11,7 @@ batch_size: 5
 lr: 0.0002
 
 max_iters: 50000
-max_epochs: 10000
+max_epochs: 100000
 print_iters: 500
 summary_iters: 2500
 model_iters: 10000
