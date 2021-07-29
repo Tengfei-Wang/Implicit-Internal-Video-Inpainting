@@ -102,7 +102,7 @@ python test_mask.py
 ```
 
 ### High-resolution Video Inpainting
-Our 4K videos and mask annotations can be downloaded in [4K data]().
+Our 4K videos and mask annotations can be downloaded in [4K data](https://github.com/Tengfei-Wang/Annotated-4K-Videos).
 
 ## Citation
 If you find this work useful for your research, please cite:
