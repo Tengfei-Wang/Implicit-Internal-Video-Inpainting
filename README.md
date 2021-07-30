@@ -104,6 +104,10 @@ python test_mask.py
 ### High-resolution Video Inpainting
 Our 4K videos and mask annotations can be downloaded in [4K data](https://github.com/Tengfei-Wang/Annotated-4K-Videos).
 
+### More Results
+Our results on  70 DAVIS videos (including failure cases) can be found  [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/tfwang_connect_ust_hk/EmtOPEAarqdFj4yDLECg2oABakpQIvP74n9VEagkXn8W4A?e=oRCRfm) for your comparison :)   
+If you need the PNG version of our uncompressed  results, please contact the authors.
+ 
 ## Citation
 If you find this work useful for your research, please cite:
 ``` 
