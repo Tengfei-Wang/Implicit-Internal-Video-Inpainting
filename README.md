@@ -10,7 +10,7 @@ Implementation for our ICCV2021 paper: Internal Video Inpainting by Implicit Lon
 
 
 ## Introduction
-Want to remove objects from a video without days of training and thousands of training videos? We proposed a  simple but effective internal video inpainting method. The inpainting process is zero-shot and implicit, which does not need any pretraining on large datasets or optical-flow estimation. We further extend the proposed method to more challenging tasks:  video object removal with  limited annotated  masks,  and inpainting on ultra high-resolution videos (e.g., 4K videos).
+Want to remove objects from a video without days of training and thousands of training videos? Try our  simple but effective internal video inpainting method. The inpainting process is zero-shot and implicit, which does not need any pretraining on large datasets or optical-flow estimation. We further extend the proposed method to more challenging tasks:  video object removal with  limited annotated  masks,  and inpainting on ultra high-resolution videos (e.g., 4K videos).
 <img src="pics/demo.jpg" height="500px"/> 
 
 ## Setup
