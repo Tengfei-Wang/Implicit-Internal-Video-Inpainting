@@ -1,5 +1,6 @@
 # Implicit Internal Video Inpainting
-Implementation for our ICCV2021 paper: Internal Video Inpainting by Implicit Long-range Propagation 
+Implementation for our ICCV2021 paper: Internal Video Inpainting by Implicit Long-range Propagation  
+
 The paper is coming soon... (by this weekend)
 
 [paper]( ) | [project website](https://tengfei-wang.github.io/Implicit-Internal-Video-Inpainting/) | [4K data](https://github.com/Tengfei-Wang/Annotated-4K-Videos) | [demo video](https://youtu.be/VlDSJtmBqBs)
