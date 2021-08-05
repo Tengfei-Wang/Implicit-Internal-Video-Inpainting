@@ -1,9 +1,7 @@
 # Implicit Internal Video Inpainting
 Implementation for our ICCV2021 paper: Internal Video Inpainting by Implicit Long-range Propagation  
 
-The paper is coming soon... (by this weekend)
-
-[paper]( ) | [project website](https://tengfei-wang.github.io/Implicit-Internal-Video-Inpainting/) | [4K data](https://github.com/Tengfei-Wang/Annotated-4K-Videos) | [demo video](https://youtu.be/VlDSJtmBqBs)
+[paper](https://arxiv.org/abs/2108.01912) | [project website](https://tengfei-wang.github.io/Implicit-Internal-Video-Inpainting/) | [4K data](https://github.com/Tengfei-Wang/Annotated-4K-Videos) | [demo video](https://youtu.be/VlDSJtmBqBs)
 
 <img src="pics/boxing-fisheye-input.gif" width="180px"/>    <img src="pics/shooting-input.gif" width="180px"/>   <img src="pics/horsejump-high-input.gif" width="180px"/>    <img src="pics/gold-fish-input.gif" width="180px"/> 
 
