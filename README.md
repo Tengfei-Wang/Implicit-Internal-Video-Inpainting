@@ -13,6 +13,9 @@ Want to remove objects from a video without days of training and thousands of tr
 
 <img src="pics/demo.jpg" height="500px"/> 
 
+## TO DO
+- [ ] Release code for 4K video inpainting
+ 
 ## Setup
 ### Installation
 ```
