@@ -7,6 +7,8 @@ Implementation for our ICCV2021 paper: Internal Video Inpainting by Implicit Lon
 
 <img src="pics/boxing-fisheye.gif" width="180px"/>    <img src="pics/shooting.gif" width="180px"/>   <img src="pics/horsejump-high.gif" width="180px"/>    <img src="pics/gold-fish.gif" width="180px"/> 
 
+Our results on  70 DAVIS videos (including failure cases) can be found  [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/tfwang_connect_ust_hk/EmtOPEAarqdFj4yDLECg2oABsylzC4lKjuFyyg7o2TTdyQ) for your reference :)   
+If you need the PNG version of our uncompressed  results, please contact the authors.
  
 ## Introduction
 Want to remove objects from a video without days of training and thousands of training videos? Try our  simple but effective internal video inpainting method. The inpainting process is zero-shot and implicit, which does not need any pretraining on large datasets or optical-flow estimation. We further extend the proposed method to more challenging tasks:  video object removal with  limited annotated  masks,  and inpainting on ultra high-resolution videos (e.g., 4K videos). 
@@ -36,7 +38,7 @@ pip install opencv-python
 pip install tensorflow-addons
 ```
 
-Or, you can also   set up the environment from the provided environment.yml:
+Or, you can also   set up the environment from the provided `environment.yml`:
 ```
 conda env create -f environment.yml
 conda activate IIVI
@@ -51,7 +53,7 @@ We provide an example sequence 'bmx-trees'  in `./inputs/` . To try our  method:
 python train.py
 ```
 The default iterations is set to 50,000 in `config/train.yml`, and the internal learning takes ~4 hours with a single GPU. 
-During the learning process, you can use tensorboard to check the inpainting results by:
+During the learning process, you can use tensorboard to check the results by:
 ```
 tensorboard --logdir ./exp/logs
 ```
@@ -107,9 +109,7 @@ python test_mask.py
 ### High-resolution Video Inpainting
 Our 4K videos and mask annotations can be downloaded in [4K data](https://github.com/Tengfei-Wang/Annotated-4K-Videos).
 
-### More Results
-Our results on  70 DAVIS videos (including failure cases) can be found  [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/tfwang_connect_ust_hk/EmtOPEAarqdFj4yDLECg2oABsylzC4lKjuFyyg7o2TTdyQ) for your reference :)   
-If you need the PNG version of our uncompressed  results, please contact the authors.
+
  
 ## Citation
 If you find this work useful for your research, please cite:
