@@ -45,8 +45,6 @@ conda env create -f environment.yml
 conda activate IIVI
 ```
 
-
-
 ## Usage
 ### Quick Start
 We provide an example sequence 'bmx-trees'  in `./inputs/` . To try our  method:
