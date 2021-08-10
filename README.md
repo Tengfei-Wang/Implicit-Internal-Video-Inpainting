@@ -16,6 +16,7 @@ Want to remove objects from a video without days of training and thousands of tr
 <img src="pics/demo.jpg" height="500px"/> 
 
 ## TO DO
+- [x] Release code for distributed training
 - [ ] Release code for 4K video inpainting
  
 ## Setup
@@ -26,7 +27,7 @@ cd Implicit-Internal-Video-Inpainting
 ```
 
 ### Environment
-This code is based on tensorflow 2.x  (tested on tensorflow 2.2, 2.4).
+This code is based on tensorflow 2.x  (tested on tensorflow 2.0, 2.2, 2.4).
 
 The environment can be simply set up by Anaconda:
 ```
@@ -92,6 +93,14 @@ Modify the `./config/test.yml`, which indicates the video path, log path, and sa
 ```
 python test.py
 ```
+
+#### Distributed training
+To accelerate the training process, multi-GPUs can be used.  
+To utilize multi-GPUs for training, modify the `./config/train.yml` accordingly. For example, `GPU_ID: '0,1'`, `batch_size: 5`, `lr: 0.0002`.  
+```
+python train_dist.py
+```
+Note that we have only tested the distributed training code on tensorflow 2.0. (it may not work for tf 2.4).
 
 ### Mask Propagation from A Single Frame
 When you only annotate the object mask of one frame (or few frames), our method can propagate it to other frames automatically.
