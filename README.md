@@ -26,6 +26,7 @@ git clone https://github.com/Tengfei-Wang/Implicit-Internal-Video-Inpainting.git
 cd Implicit-Internal-Video-Inpainting
 ```
 
+
 ### Environment
 This code is based on tensorflow 2.x  (tested on tensorflow 2.0, 2.2, 2.4).
 
@@ -72,7 +73,7 @@ python scripts/preprocess_mask.py --annotation_path inputs/annotations/bmx-trees
 ```
 
 #### Basic training
-Modify the `config/train.yml`, which indicates the video path, log path, and training iterations,etc.. The training iterations depends on the video length, and it typically takes 30,000 ~ 80,000 iterations for convergence for 100-frame videos.
+Modify the `config/train.yml`, which indicates the video path, log path, and training iterations,etc.. The training iterations depends on the video length, and it typically takes 30,000 ~ 80,000 iterations for convergence for 100-frame videos (one a single GPU).
 By default, we only use reconstruction loss for training, and it works well for most cases. 
 ```
 python train.py
