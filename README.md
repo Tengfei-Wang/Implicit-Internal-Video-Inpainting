@@ -26,7 +26,6 @@ git clone https://github.com/Tengfei-Wang/Implicit-Internal-Video-Inpainting.git
 cd Implicit-Internal-Video-Inpainting
 ```
 
-
 ### Environment
 This code is based on tensorflow 2.x  (tested on tensorflow 2.0, 2.2, 2.4).
 
