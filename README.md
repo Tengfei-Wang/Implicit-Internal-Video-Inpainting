@@ -142,3 +142,6 @@ If you are also interested in the image inpainting or internal learning, [this p
 
 ## Contact
 Please send emails to [Hao Ouyang](ououkenneth@gmail.com) or [Tengfei Wang](tengfeiwang12@gmail.com)  if there is any question
+
+##  Acknowledgement
+We thank the authors of [DeepFill](https://github.com/JiahuiYu/generative_inpainting) for sharing their codes.
