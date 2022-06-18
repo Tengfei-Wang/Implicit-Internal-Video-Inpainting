@@ -3,9 +3,9 @@ Implementation for our ICCV2021 paper: Internal Video Inpainting by Implicit Lon
 
 [paper](https://arxiv.org/abs/2108.01912) | [project website](https://tengfei-wang.github.io/Implicit-Internal-Video-Inpainting/) | [4K data](https://github.com/Tengfei-Wang/Annotated-4K-Videos) | [demo video](https://youtu.be/VlDSJtmBqBs)
 
-<img src="pics/boxing-fisheye-input.gif" width="180px"/>    <img src="pics/shooting-input.gif" width="180px"/>   <img src="pics/horsejump-high-input.gif" width="180px"/>    <img src="pics/gold-fish-input.gif" width="180px"/> 
+<img src="pics/boxing-fisheye-input.gif" width="160"/> <img src="pics/shooting-input.gif" width="160"/>   <img src="pics/horsejump-high-input.gif" width="160"/>    <img src="pics/gold-fish-input.gif" width="160"/> 
 
-<img src="pics/boxing-fisheye.gif" width="180px"/>    <img src="pics/shooting.gif" width="180px"/>   <img src="pics/horsejump-high.gif" width="180px"/>    <img src="pics/gold-fish.gif" width="180px"/> 
+<img src="pics/boxing-fisheye.gif" width="160"/>    <img src="pics/shooting.gif" width="160"/>   <img src="pics/horsejump-high.gif" width="160"/>    <img src="pics/gold-fish.gif" width="160"/> 
 
 Our results on  70 DAVIS videos (including failure cases) can be found  [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/tfwang_connect_ust_hk/EmtOPEAarqdFj4yDLECg2oABsylzC4lKjuFyyg7o2TTdyQ?e=K8mYHv) for your reference :)   
 If you need the PNG version of our uncompressed  results, please contact the authors.
@@ -15,9 +15,7 @@ Want to remove objects from a video without days of training and thousands of tr
 
 <img src="pics/demo.jpg" height="500px"/> 
 
-## TO DO
-- [x] Release code for distributed training
-- [ ] Release code for 4K video inpainting
+
  
 ## Setup
 ### Installation
